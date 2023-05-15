@@ -1,0 +1,292 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+
+@font-face {
+    font-family: Calibri;
+    src: url(Calibri\ Regular.ttf);
+}
+@media print {
+    body {-webkit-print-color-adjust: exact;}
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif
+}
+.content {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 2fr 5fr 1fr;
+
+}
+/* Personal details section */
+.personal-details {
+    background-color: #2E4F4F;
+    color: antiquewhite;
+}
+
+.personal-details hr {
+    width: 80%;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.profile-picture {
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.fName-lName {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    gap: 10px;
+    justify-content: center;
+    margin: 25px 50px 0;
+    font-size: 1.6rem;
+}
+
+.details {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    font-size: 1.1rem;
+}
+
+.details-section h2 {
+    padding-left: 15%;
+    margin-bottom: 10px;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+}
+
+.skills-section h2 {
+    padding-left: 15%;
+    margin-bottom: 10px;
+}
+
+.skill-item {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.skill-item button {
+    font-size: 1rem;
+    border: none;
+    background-color: transparent;
+    color:#dfdfdf;
+}
+
+#input-skills {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-content: center;
+}
+
+#input-skills button {
+    border: none;
+    background-color: transparent;
+    color: #dfdfdf;
+    font-size: 1.2rem;
+}
+
+.personal-details input, textarea {
+    width: 80%;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #dfdfdf;
+    border-radius: 0;
+    outline: none;
+    color: white;
+    background-color: transparent;
+    font-size: 1rem;
+}
+
+/* Main details section ------------------------------------------>*/
+
+.main-details {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    gap: 25px;
+    padding: 25px;
+}
+
+.about-me hr {
+    margin: 10px 0;
+}
+
+.about-me textarea {
+    resize: none;
+    color: black;
+    width: 97%;
+    font-size: 1rem;
+}
+
+.employement-details hr {
+    margin: 10px 0;
+}
+
+.employement-details textarea {
+    resize: none;
+    color: black;
+    width: 97%;
+    font-size: 1rem;
+}
+
+.employer-details {
+    display: grid;
+    gap: 10px;
+    padding: 15px 0;
+}
+
+.employer-details button {
+    border: none;
+    background-color: #94a8a8;;
+    border-radius: 25px;
+    height: 25px;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+
+.employement-input {
+    display: grid;
+    gap: 10px;
+}
+
+.employement-input input {
+    font-size: 1rem;
+}
+
+.employement-input button {
+    border: none;
+    background-color: #94a8a8;;
+    border-radius: 25px;
+    height: 25px;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.employement-input input {
+    width: 97%;
+}
+
+.education hr {
+    margin: 10px 0;
+}
+
+.education-details {
+    display: grid;
+    gap: 10px;
+    padding: 15px 0;
+}
+
+.education-details button {
+    border: none;
+    background-color: #94a8a8;;
+    border-radius: 25px;
+    height: 25px;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.education-input {
+    display: grid;
+    gap: 10px;
+}
+
+.education-input input {
+    font-size: 1rem;
+}
+
+.education-input button {
+    border: none;
+    background-color: #94a8a8;;
+    border-radius: 25px;
+    height: 25px;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.controls {
+    background-color: lightgray;
+    display: grid;
+    justify-content: center;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+    height: 50px;
+    padding: 25px 0;
+    width: 200px;
+}
+
+.instructions {
+    text-align: center;
+    padding: 25px 0;
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    gap: 10px;
+    font-size: 1.2rem;
+}   
+
+.buttons button {
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+.buttons button:hover {
+    background-color: #2E4F4F;
+}
+
+input, textarea {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #dfdfdf;
+    border-radius: 10px;
+    outline: none;
+}
+
+img {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+input[type="file"] {
+    display: none;
+}
+.custom-photo-upload {
+    border: 1px solid #dfdfdf;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.printing {
+    display: none;
+}
